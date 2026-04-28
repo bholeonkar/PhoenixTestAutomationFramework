@@ -1,0 +1,10 @@
+target/
+Reports/
+test-output/
+ExtentReports/
+ScreenShots/
+screenshots/
+logs/
+*.log
+.idea/
+*.iml
