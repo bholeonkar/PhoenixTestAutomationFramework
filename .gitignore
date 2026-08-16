@@ -1,1 +1,14 @@
+<<<<<<< HEAD
 /target/
+=======
+target/
+Reports/
+test-output/
+ExtentReports/
+ScreenShots/
+screenshots/
+logs/
+*.log
+.idea/
+*.iml
+>>>>>>> branch 'master' of https://github.com/bholeonkar/PhoenixTestAutomationFramework.git
