@@ -1,0 +1,6 @@
+com\api\utils\ConfigManager.class
+com\api\utils\Demo.class
+com\api\tests\UserDetailsAPITest.class
+com\api\tests\LoginAPITest.class
+com\api\utils\ConfigManagerOLD.class
+com\api\pojo\UserCredentials.class
