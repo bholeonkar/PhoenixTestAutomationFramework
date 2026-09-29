@@ -1,8 +1,6 @@
 package com.api.utils;
 
-import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
@@ -14,8 +12,12 @@ public class ConfigManager {
 	private static String env;
 
 	static {
-
-		env = System.getProperty("env");
+		
+		if (env == null) {
+			env = "qa";
+		}else  {
+			env = System.getProperty("env").toLowerCase().trim();
+		}
 
 		switch (env.toLowerCase()) {
 		case "dev" -> path = "config/config.dev.properties"; // Added config.
@@ -51,7 +53,7 @@ public class ConfigManager {
 
 	}
 
-	public static String getProperty(String key) throws IOException {
+	public static String getProperty(String key) {
 
 		return prop.getProperty(key);
 

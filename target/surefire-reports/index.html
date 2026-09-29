@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">6 methods,   6 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,12 +103,32 @@
                     <div class="method-list-content passed suite-Surefire_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.tests.CountAPITest" class="method navigator-link" hash-for-method="countAPITest_MissingAuthToken">countAPITest_MissingAuthToken</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.tests.MasterAPITest" class="method navigator-link" hash-for-method="invalidTokenMasterAPITest">invalidTokenMasterAPITest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Surefire_suite" title="com.api.tests.LoginAPITest" class="method navigator-link" hash-for-method="loginAPITest">loginAPITest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.tests.MasterAPITest" class="method navigator-link" hash-for-method="masterAPITest">masterAPITest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Surefire_suite" title="com.api.tests.UserDetailsAPITest" class="method navigator-link" hash-for-method="userDetailsAPITest">userDetailsAPITest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.tests.CountAPITest" class="method navigator-link" hash-for-method="verifyCountResponse">verifyCountResponse</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Surefire_suite -->
@@ -126,14 +146,21 @@
           <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.api.tests.LoginAPITest</span>
+              <span class="class-name">com.api.tests.MasterAPITest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="loginAPITest">
-                  </a> <!-- loginAPITest -->
-                  <span class="method-name">loginAPITest</span>
+                  <a name="invalidTokenMasterAPITest">
+                  </a> <!-- invalidTokenMasterAPITest -->
+                  <span class="method-name">invalidTokenMasterAPITest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="masterAPITest">
+                  </a> <!-- masterAPITest -->
+                  <span class="method-name">masterAPITest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -153,6 +180,43 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.api.tests.LoginAPITest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginAPITest">
+                  </a> <!-- loginAPITest -->
+                  <span class="method-name">loginAPITest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.api.tests.CountAPITest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="countAPITest_MissingAuthToken">
+                  </a> <!-- countAPITest_MissingAuthToken -->
+                  <span class="method-name">countAPITest_MissingAuthToken</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCountResponse">
+                  </a> <!-- verifyCountResponse -->
+                  <span class="method-name">verifyCountResponse</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
         </div> <!-- panel Surefire_suite -->
         <div panel-name="test-xml-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -164,7 +228,9 @@
 &lt;suite name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;com.api.tests.CountAPITest&quot;/&gt;
       &lt;class name=&quot;com.api.tests.LoginAPITest&quot;/&gt;
+      &lt;class name=&quot;com.api.tests.MasterAPITest&quot;/&gt;
       &lt;class name=&quot;com.api.tests.UserDetailsAPITest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Surefire test --&gt;
@@ -179,7 +245,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Surefire test (2 classes)</span>
+                <span class="test-name">Surefire test (4 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -205,20 +271,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(6);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'loginAPITest')
-data.setCell(0, 2, 'com.api.tests.LoginAPITest')
-data.setCell(0, 3, 1974);
+data.setCell(0, 1, 'countAPITest_MissingAuthToken')
+data.setCell(0, 2, 'com.api.tests.CountAPITest')
+data.setCell(0, 3, 1733);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'userDetailsAPITest')
-data.setCell(1, 2, 'com.api.tests.UserDetailsAPITest')
-data.setCell(1, 3, 513);
+data.setCell(1, 1, 'verifyCountResponse')
+data.setCell(1, 2, 'com.api.tests.CountAPITest')
+data.setCell(1, 3, 1221);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'masterAPITest')
+data.setCell(2, 2, 'com.api.tests.MasterAPITest')
+data.setCell(2, 3, 460);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'userDetailsAPITest')
+data.setCell(3, 2, 'com.api.tests.UserDetailsAPITest')
+data.setCell(3, 3, 246);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'loginAPITest')
+data.setCell(4, 2, 'com.api.tests.LoginAPITest')
+data.setCell(4, 3, 111);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'invalidTokenMasterAPITest')
+data.setCell(5, 2, 'com.api.tests.MasterAPITest')
+data.setCell(5, 3, 77);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -244,17 +326,39 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
+              <div class="chronological-class-name">com.api.tests.CountAPITest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">countAPITest_MissingAuthToken</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyCountResponse</span>
+                <span class="method-start">1735 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
               <div class="chronological-class-name">com.api.tests.LoginAPITest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">loginAPITest</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">2958 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.api.tests.MasterAPITest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">invalidTokenMasterAPITest</span>
+                <span class="method-start">3070 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">masterAPITest</span>
+                <span class="method-start">3148 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.api.tests.UserDetailsAPITest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">userDetailsAPITest</span>
-                <span class="method-start">1978 ms</span>
+                <span class="method-start">3609 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

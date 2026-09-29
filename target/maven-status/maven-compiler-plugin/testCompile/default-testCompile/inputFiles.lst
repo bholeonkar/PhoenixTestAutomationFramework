@@ -1,6 +1,10 @@
-C:\Users\Onkar\eclipse-workspace\PhoenixTestAutomationFramework\src\test\java\com\api\pojo\UserCredentials.java
-C:\Users\Onkar\eclipse-workspace\PhoenixTestAutomationFramework\src\test\java\com\api\tests\LoginAPITest.java
-C:\Users\Onkar\eclipse-workspace\PhoenixTestAutomationFramework\src\test\java\com\api\tests\UserDetailsAPITest.java
-C:\Users\Onkar\eclipse-workspace\PhoenixTestAutomationFramework\src\test\java\com\api\utils\ConfigManager.java
-C:\Users\Onkar\eclipse-workspace\PhoenixTestAutomationFramework\src\test\java\com\api\utils\ConfigManagerOLD.java
-C:\Users\Onkar\eclipse-workspace\PhoenixTestAutomationFramework\src\test\java\com\api\utils\Demo.java
+C:\Users\xobho\git\repository2\src\test\java\com\api\constant\Roles.java
+C:\Users\xobho\git\repository2\src\test\java\com\api\pojo\UserCredentials.java
+C:\Users\xobho\git\repository2\src\test\java\com\api\tests\CountAPITest.java
+C:\Users\xobho\git\repository2\src\test\java\com\api\tests\LoginAPITest.java
+C:\Users\xobho\git\repository2\src\test\java\com\api\tests\MasterAPITest.java
+C:\Users\xobho\git\repository2\src\test\java\com\api\tests\UserDetailsAPITest.java
+C:\Users\xobho\git\repository2\src\test\java\com\api\utils\AuthTokenProvider.java
+C:\Users\xobho\git\repository2\src\test\java\com\api\utils\ConfigManager.java
+C:\Users\xobho\git\repository2\src\test\java\com\api\utils\ConfigManagerOLD.java
+C:\Users\xobho\git\repository2\src\test\java\com\api\utils\Demo.java
