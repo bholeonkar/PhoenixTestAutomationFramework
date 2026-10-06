@@ -1,10 +1,4 @@
 package com.api.tests;
-
-import static org.hamcrest.Matchers.equalTo;
-import static org.hamcrest.Matchers.notNullValue;
-
-import java.net.http.HttpResponse.BodyHandler;
-
 import static org.hamcrest.Matchers.*;
 import org.testng.annotations.Test;
 

@@ -6,5 +6,4 @@ com\api\utils\ConfigManagerOLD.class
 com\api\pojo\UserCredentials.class
 com\api\tests\CountAPITest.class
 com\api\tests\MasterAPITest.class
-com\api\utils\Demo.class
 com\api\tests\LoginAPITest.class
