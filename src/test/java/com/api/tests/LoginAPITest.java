@@ -29,11 +29,7 @@ public class LoginAPITest {
 		 .spec(SpecUtil.requestSpec(userCredentials))
 		 .when()
 		 .post("login")
-		 .then()
-		 .log().all()
-		 .statusCode(200)
-		 .time(lessThan(1000L))
-		 .and()
+		 .then().spec(SpecUtil.responseSpec_ok())
 		 .body("message", equalTo("Success"))
 	     .and()
 	     .body(JsonSchemaValidator.matchesJsonSchemaInClasspath("response-schema/LoginResponseSchema.json"));
